@@ -50,7 +50,11 @@ img{
         position: absolute;
         top: 0%; 
         left: 0%;
+<<<<<<< HEAD
         background: url('/preloader.gif');
+=======
+        background: url('preloader.gif');
+>>>>>>> 5d6d59da349dccd0ff7a30c5bbd1185d3aeadc79
         background-size: 40%;
         background-repeat: no-repeat;
         background-position: center;
@@ -355,7 +359,7 @@ img{
     
     img{
         border-radius: 50%;
-        border: 5px solid #fff;
+        border: 5px solid red;
         overflow: hidden;
         position: relative;
     }
