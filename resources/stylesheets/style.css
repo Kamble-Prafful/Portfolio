@@ -65,7 +65,7 @@ img {
   position: absolute;
   top: 0%;
   left: 0%;
-  background: url("/preloader.gif");
+  background: url(/Portfolio/preloader.gif);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -268,7 +268,7 @@ img {
 
 .banner .container .full-screen {
   min-height: 100vh;
-  color: red;
+  color: #fff;
   margin-left: 75px;
 }
 

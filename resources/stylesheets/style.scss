@@ -50,11 +50,7 @@ img{
         position: absolute;
         top: 0%; 
         left: 0%;
-<<<<<<< HEAD
-        background: url('/preloader.gif');
-=======
-        background: url('preloader.gif');
->>>>>>> 5d6d59da349dccd0ff7a30c5bbd1185d3aeadc79
+        background: url(/Portfolio/preloader.gif);
         background-size: 40%;
         background-repeat: no-repeat;
         background-position: center;
@@ -270,7 +266,7 @@ img{
 
         .full-screen{
             min-height: 100vh;
-            color: red;
+            color: #fff;
             margin-left: 75px;
     
     
@@ -359,7 +355,7 @@ img{
     
     img{
         border-radius: 50%;
-        border: 5px solid red;
+        border: 5px solid #fff;
         overflow: hidden;
         position: relative;
     }
