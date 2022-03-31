@@ -4,52 +4,16 @@ var hamburgerMenu = document.querySelector(".toggler-menu");
 
 hamburgerMenu.addEventListener('click', toggleOpen);
 
-// hamburgerMenu.onclick=()=>{
-//     hamburgerMenu = this.hidden;
-// }
-
 function toggleOpen(){
     headerLeft.classList.toggle('menu-open');
 }
 
+var portfolio = document.getElementById('portfolio');
+portfolio.addEventListener('click',lert);
 
-
-//Cube configuration
-
-// jQuery(function($){
-//     "use strict";
-//     $('#flat').cubeportfolio({
-//         filters: '#flat',
-//         layoutMode: 'mosaic',
-//         sortByDimension:true,
-//         mediaQueries: [{
-//             width: 1300,
-//             cols: 6,
-//         }, {
-//             width: 1100,
-//             cols: 6,
-//         }, {
-//             width: 920,
-//             cols: 6,
-//         }, {
-//             width: 400,
-//             cols: 1,
-//             options:{
-//                 gapHorizontal: 15,
-//                 gapVertical: 15,
-//             }
-//         }],
-//         defaultFilter: '*',
-//         animationType: 'fadeOutTop',
-//         gapHorizontal: 0,
-//         gapVertical: 0,
-//         gridAdjustment: 'responsive',
-//         caption: 'zoom',
-//         lightboxDelegate: '.cbp-lightbox',
-//         lightboxGallery: true,
-//         lightboxTitleSrc: 'data-title',
-//     });
-// });
+function lert(){
+    alert('what do you think what are you looking at?');
+}
 
 //Light speed
 
