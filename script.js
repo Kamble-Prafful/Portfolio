@@ -191,7 +191,15 @@ var form = document.getElementById("contact-form");
     form.addEventListener("submit", handleSubmit)
 
 
-
+//Count
+function visitorCount(){
+    fetch('https://api.countapi.xyz/update/Prafful/999/?amount=1')
+    .then(res=> res.json())
+    .then(res=> {
+        console.log(`count ${res.value}`);
+    })
+}
+visitorCount();
 
 
 
