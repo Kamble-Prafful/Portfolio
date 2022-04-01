@@ -172,8 +172,8 @@ var form = document.getElementById("contact-form");
         }
       }).then(response => {
         if (response.ok) {
-            status.innerHTML = 'Success';
             form.reset()
+            status.style.display = 'block';
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
