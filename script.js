@@ -204,6 +204,9 @@ visitorCount();
 
 
 
-
-
+// var desc = document.getElementsByClassName('desc');
+// var mq = window.matchMedia("(max-width: 450px)");
+// if (mq = true){
+//     desc.innerHTML = '&lt;Frontend Web Developer/&gt;'
+// }
 
